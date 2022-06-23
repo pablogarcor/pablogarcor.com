@@ -43,7 +43,7 @@ export class RootComponent extends BaseComponent<{
                 flex:1;
                 width:fit-content;
                 flex-direction:column;
-                font-size:16px;
+                font-size: clamp( 0px, 1.2vw, 20px);
             "
         >
           <div style="display: flex;">
