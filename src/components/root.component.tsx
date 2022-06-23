@@ -61,16 +61,18 @@ export class RootComponent extends BaseComponent<{
                         font-size: 2em;
                     "
               >
-                <p
+                <a
+                    href="#about"
                   n-on-mouseover={() =>
                     this.onMouseChangeColor({ ...this.data.color, name: "red" })
                   }
                   style="
-                            cursor: pointer;
-                        "
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                "
                 >
                   Yo
-                </p>
+                </a>
               </div>
               <div
                 style="
@@ -125,7 +127,7 @@ export class RootComponent extends BaseComponent<{
                   style="
                             border-bottom: 1px solid;
                             border-left: 1px solid;
-                            height: 0.5em;
+                            height: 0.33333em;
                         "
                 />
               </div>
@@ -145,7 +147,8 @@ export class RootComponent extends BaseComponent<{
                         font-size: 2em;
                     "
               >
-                <p
+                <a
+                    href="https://pablogarcor.com"
                   n-on-mouseover={() =>
                     this.onMouseChangeColor({
                       ...this.data.color,
@@ -154,11 +157,12 @@ export class RootComponent extends BaseComponent<{
                     })
                   }
                   style="
-                            cursor: pointer;
-                            "
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                "
                 >
                   Web
-                </p>
+                </a>
               </div>
               <div
                 style="
@@ -191,7 +195,7 @@ export class RootComponent extends BaseComponent<{
                     style="
                                 border-bottom: 1px solid;
                                 border-right: 1px solid;
-                                height: 0.5em;
+                                height: 0.33333em;
                             "
                   />
                   <div
@@ -244,7 +248,7 @@ export class RootComponent extends BaseComponent<{
                 border-bottom: 1px solid;
                 border-left: 1px solid;
                 border-right: 1px solid;
-                height: 0.5em;
+                height: 1em;
             "
           />
           <div
