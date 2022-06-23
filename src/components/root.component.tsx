@@ -43,7 +43,7 @@ export class RootComponent extends BaseComponent<{
                 flex:1;
                 width:fit-content;
                 flex-direction:column;
-                font-size:10px;
+                font-size:16px;
             "
         >
           <div style="display: flex;">
@@ -59,6 +59,7 @@ export class RootComponent extends BaseComponent<{
                         display: flex;
                         justify-content: center;
                         height: 3em;
+                        font-size: 2em;
                     "
               >
                 <p
@@ -83,7 +84,7 @@ export class RootComponent extends BaseComponent<{
               <div
                 style="
                         line-height: 1.15;
-                        font-size: 4em;
+                        font-size: 3em;
                         width: fit-content;
                     "
               >
@@ -103,15 +104,15 @@ export class RootComponent extends BaseComponent<{
                 "
             >
               <div
-                // 4em is the height of text plus borders and 1px is for the size of the border
+                // 7em is the height of text plus borders and 1px is for the size of the border
                 style="
-                        height: calc( 4em + 1px );
+                        height: calc( 7em + 1px );
                     "
               />
               <div
                 style="
                         line-height: 1.15;
-                        font-size: 4em;
+                        font-size: 3em;
                         width: fit-content;
                     "
               >
@@ -142,6 +143,7 @@ export class RootComponent extends BaseComponent<{
                         display: flex;
                         justify-content: center;
                         height: 3em;
+                        font-size: 2em;
                     "
               >
                 <p
@@ -176,7 +178,7 @@ export class RootComponent extends BaseComponent<{
                 <div
                   style="
                             line-height: 1.15;
-                            font-size: 4em;
+                            font-size: 3em;
                             width: fit-content;
                         "
                 >
@@ -195,7 +197,7 @@ export class RootComponent extends BaseComponent<{
                   />
                   <div
                     style="
-                                font-size: 0.25em;
+                                font-size: 0.66666em;
                                 display: flex;
                                 justify-content: center;
                                 height: 3em;
@@ -224,7 +226,7 @@ export class RootComponent extends BaseComponent<{
                 <div
                   style="
                             line-height: 1.15;
-                            font-size: 4em;
+                            font-size: 3em;
                             width: fit-content;
                         "
                 >
@@ -251,6 +253,7 @@ export class RootComponent extends BaseComponent<{
                 display: flex;
                 justify-content: center;
                 height: 3em;
+                font-size: 2em;
             "
           >
             <a
