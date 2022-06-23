@@ -24,7 +24,6 @@ export class RootComponent extends BaseComponent<{
     web: string;
     name: string;
   }) {
-    console.log(color.name);
     this.setData("color", color);
   }
   render() {
@@ -43,7 +42,7 @@ export class RootComponent extends BaseComponent<{
                 flex:1;
                 width:fit-content;
                 flex-direction:column;
-                font-size: clamp( 0px, 1.2vw, 20px);
+                font-size: clamp( 0px, 0.75vw, 20px);
             "
         >
           <div style="display: flex;">
