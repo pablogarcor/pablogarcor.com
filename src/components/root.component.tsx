@@ -31,35 +31,39 @@ export class RootComponent extends BaseComponent<{
     return (
       <>
         <div
-            n-on-mouseover={() =>
-                this.onMouseChangeColor({
-                  atSign: "inherit",
-                  domain: "inherit",
-                  web: "inherit",
-                  name: "inherit",
-                })
-            }
+          n-on-mouseover={() =>
+            this.onMouseChangeColor({
+              atSign: "inherit",
+              domain: "inherit",
+              web: "inherit",
+              name: "inherit",
+            })
+          }
+          style="display:flex;
+                width:fit-content;
+                flex-direction:column;
+            "
         >
           <div style="display: flex;">
             <div
-                style="
+              style="
                     display: flex;
                     flex-direction: column;
                     width: fit-content;
                 "
             >
               <div
-                  style="
+                style="
                         display: flex;
                         justify-content: center;
                         height: 3em;
                     "
               >
                 <p
-                    n-on-mouseover={() =>
-                        this.onMouseChangeColor({...this.data.color, name: "red"})
-                    }
-                    style="
+                  n-on-mouseover={() =>
+                    this.onMouseChangeColor({ ...this.data.color, name: "red" })
+                  }
+                  style="
                             cursor: pointer;
                         "
                 >
@@ -67,7 +71,7 @@ export class RootComponent extends BaseComponent<{
                 </p>
               </div>
               <div
-                  style="
+                style="
                         border-top: 1px solid;
                         border-left: 1px solid;
                         border-right: 1px solid;
@@ -75,47 +79,48 @@ export class RootComponent extends BaseComponent<{
                     "
               />
               <div
-                  style="
+                style="
                         line-height: 1.15;
                         font-size: 4rem;
                         width: fit-content;
                     "
               >
                 <h1
-                    style={"color:" + this.data.color.name + ";"}
-                    className="email__title"
+                  style={"color:" + this.data.color.name + ";"}
+                  className="email__title"
                 >
                   pablo
                 </h1>
               </div>
             </div>
             <div
-                style="
+              style="
                     display: flex;
                     flex-direction: column;
                     width: fit-content;
                 "
             >
               <div
-                  style="
-                        height: 4em;
+                // 4em is the height of text plus borders and 1px is for the size of the border
+                style="
+                        height: calc( 4em + 1px );
                     "
               />
               <div
-                  style="
+                style="
                         line-height: 1.15;
                         font-size: 4rem;
                         width: fit-content;
                     "
               >
                 <h1
-                    style={"color:" + this.data.color.atSign + ";"}
-                    className="email__title"
+                  style={"color:" + this.data.color.atSign + ";"}
+                  className="email__title"
                 >
                   @
                 </h1>
                 <div
-                    style="
+                  style="
                             border-bottom: 1px solid;
                             border-left: 1px solid;
                             height: 0.5em;
@@ -124,28 +129,28 @@ export class RootComponent extends BaseComponent<{
               </div>
             </div>
             <div
-                style="
+              style="
                     display: flex;
                     flex-direction: column;
                     width: fit-content;
                 "
             >
               <div
-                  style="
+                style="
                         display: flex;
                         justify-content: center;
                         height: 3em;
                     "
               >
                 <p
-                    n-on-mouseover={() =>
-                        this.onMouseChangeColor({
-                          ...this.data.color,
-                          web: "green",
-                          domain: "green",
-                        })
-                    }
-                    style="
+                  n-on-mouseover={() =>
+                    this.onMouseChangeColor({
+                      ...this.data.color,
+                      web: "green",
+                      domain: "green",
+                    })
+                  }
+                  style="
                             cursor: pointer;
                             "
                 >
@@ -153,7 +158,7 @@ export class RootComponent extends BaseComponent<{
                 </p>
               </div>
               <div
-                  style="
+                style="
                         border-top: 1px solid;
                         border-left: 1px solid;
                         border-right: 1px solid;
@@ -161,33 +166,33 @@ export class RootComponent extends BaseComponent<{
                     "
               />
               <div
-                  style="
+                style="
                         display: flex;
                         width: fit-content;
                     "
               >
                 <div
-                    style="
+                  style="
                             line-height: 1.15;
                             font-size: 4rem;
                             width: fit-content;
                         "
                 >
                   <h1
-                      style={"color:" + this.data.color.web + ";"}
-                      className="email__title"
+                    style={"color:" + this.data.color.web + ";"}
+                    className="email__title"
                   >
                     pablogarcor
                   </h1>
                   <div
-                      style="
+                    style="
                                 border-bottom: 1px solid;
                                 border-right: 1px solid;
                                 height: 0.5em;
                             "
                   />
                   <div
-                      style="
+                    style="
                                 font-size: 16px;
                                 display: flex;
                                 justify-content: center;
@@ -195,17 +200,17 @@ export class RootComponent extends BaseComponent<{
                             "
                   >
                     <a
-                        href="https://t.me/pablogarcor"
-                        target="_blank"
-                        rel="noreferrer"
-                        n-on-mouseover={() =>
-                            this.onMouseChangeColor({
-                              ...this.data.color,
-                              web: "#229ed9",
-                              atSign: "#229ed9",
-                            })
-                        }
-                        style="
+                      href="https://t.me/pablogarcor"
+                      target="_blank"
+                      rel="noreferrer"
+                      n-on-mouseover={() =>
+                        this.onMouseChangeColor({
+                          ...this.data.color,
+                          web: "#229ed9",
+                          atSign: "#229ed9",
+                        })
+                      }
+                      style="
                                     margin-block-start: 1em;
                                     margin-block-end: 1em;
                                 "
@@ -215,15 +220,15 @@ export class RootComponent extends BaseComponent<{
                   </div>
                 </div>
                 <div
-                    style="
+                  style="
                             line-height: 1.15;
                             font-size: 4rem;
                             width: fit-content;
                         "
                 >
                   <h1
-                      style={"color:" + this.data.color.domain + ";"}
-                      className="email__title"
+                    style={"color:" + this.data.color.domain + ";"}
+                    className="email__title"
                   >
                     .com
                   </h1>
@@ -232,7 +237,7 @@ export class RootComponent extends BaseComponent<{
             </div>
           </div>
           <div
-              style="
+            style="
                 border-bottom: 1px solid;
                 border-left: 1px solid;
                 border-right: 1px solid;
@@ -240,24 +245,24 @@ export class RootComponent extends BaseComponent<{
             "
           />
           <div
-              style="
+            style="
                 display: flex;
                 justify-content: center;
                 height: 3em;
             "
           >
             <a
-                href="mailto: pablo@pablogarcor.com"
-                n-on-mouseover={() =>
-                    this.onMouseChangeColor({
-                      ...this.data.color,
-                      web: "orange",
-                      atSign: "orange",
-                      name: "orange",
-                      domain: "orange",
-                    })
-                }
-                style="
+              href="mailto: pablo@pablogarcor.com"
+              n-on-mouseover={() =>
+                this.onMouseChangeColor({
+                  ...this.data.color,
+                  web: "orange",
+                  atSign: "orange",
+                  name: "orange",
+                  domain: "orange",
+                })
+              }
+              style="
                     margin-block-start: 1em;
                     margin-block-end: 1em;
                 "
