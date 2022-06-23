@@ -40,8 +40,10 @@ export class RootComponent extends BaseComponent<{
             })
           }
           style="display:flex;
+                flex:1;
                 width:fit-content;
                 flex-direction:column;
+                font-size:10px;
             "
         >
           <div style="display: flex;">
@@ -81,7 +83,7 @@ export class RootComponent extends BaseComponent<{
               <div
                 style="
                         line-height: 1.15;
-                        font-size: 4rem;
+                        font-size: 4em;
                         width: fit-content;
                     "
               >
@@ -109,7 +111,7 @@ export class RootComponent extends BaseComponent<{
               <div
                 style="
                         line-height: 1.15;
-                        font-size: 4rem;
+                        font-size: 4em;
                         width: fit-content;
                     "
               >
@@ -174,7 +176,7 @@ export class RootComponent extends BaseComponent<{
                 <div
                   style="
                             line-height: 1.15;
-                            font-size: 4rem;
+                            font-size: 4em;
                             width: fit-content;
                         "
                 >
@@ -193,7 +195,7 @@ export class RootComponent extends BaseComponent<{
                   />
                   <div
                     style="
-                                font-size: 16px;
+                                font-size: 0.25em;
                                 display: flex;
                                 justify-content: center;
                                 height: 3em;
@@ -222,7 +224,7 @@ export class RootComponent extends BaseComponent<{
                 <div
                   style="
                             line-height: 1.15;
-                            font-size: 4rem;
+                            font-size: 4em;
                             width: fit-content;
                         "
                 >
