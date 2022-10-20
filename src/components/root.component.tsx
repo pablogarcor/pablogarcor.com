@@ -287,6 +287,23 @@ export class RootComponent extends BaseComponent<{
               </a>
             </div>
           </div>
+          <div style="
+          padding:1em;
+    border-radius: 1em;
+    background: #E1F7F8;
+
+          ">
+            <h2>
+              Sobre mi
+            </h2>
+            <p>
+              Llevo enredado con la tecnología desde pequeño, cuando me dedicaba a montar mis propios PCs para jugar y ver como podía sacarles el mayor rendimiento posible.
+              En los albores del 2009 empecé mi relación con el desarrollo de software, creando programas de automatización para scrappear la web.
+              A partir de ahí llegaron mis primeros trabajos como desarrollador, creando aplicaciones desde cero, desde el back hasta el front, pasando por las BBDD.
+              Poco a poco fui aprendiendo de sistemas y de gestión de redes y por mi versatilidad he trabajado en varias startups. Si tuviera que elegir una rama del desarrollo software,
+              no podría, me interesa el stack completo y aunque sea en detrimento de especializarme completamente en un campo, a mi me merece la pena tener una visión total de todo.
+            </p>
+          </div>
         </div>
       </>
     );
