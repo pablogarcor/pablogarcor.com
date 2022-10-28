@@ -34,7 +34,7 @@ export class RootComponent extends BaseComponent<{
         >
           <div>
             <h1>
-              ¡Hola! <span role="img">👋🏻👨‍💻</span> Me llamo Pablo, soy desarrollador de software, estoy aquí por la tech <span role="img">🤖</span> y me encanta la tortilla española <span role="img">💃</span>
+              Hello! <span role="img">👋🏻👨‍💻</span> My name is Pablo. I'm software developer and I'm in it for the technology <span role="img">👑</span>. I love the spanish tortilla <span role="img">💃</span>
             </h1>
           </div>
           <div
