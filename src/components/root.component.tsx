@@ -33,7 +33,7 @@ export class RootComponent extends BaseComponent<{
           style="display:flex; flex-direction:column; align-items:center; max-width:930px"
         >
           <div>
-            <h1>
+            <h1 style="text-align:center">
               Hello! <span role="img">👋🏻👨‍💻</span> My name is Pablo. I'm software developer and I'm in it for the technology <span role="img">👑</span>. I love the spanish tortilla <span role="img">💃</span>
             </h1>
           </div>
