@@ -294,15 +294,15 @@ export class RootComponent extends BaseComponent<{
 
           ">
             <h2>
-              Sobre mi
+              About me
             </h2>
             <p>
-              Llevo enredado con la tecnología desde pequeño, cuando me dedicaba a montar mis propios PCs para jugar y ver como podía sacarles el mayor rendimiento posible.</p>
+              I've been a techie since I was a kid, when I mounted my own custom PCs to play video games.</p>
             <p>
-              En los albores del 2009 empecé mi relación con el desarrollo de software, creando programas de automatización para scrappear la web.
-              A partir de ahí llegaron mis primeros trabajos como desarrollador, creando aplicaciones desde cero, desde el back hasta el front, pasando por las BBDD.
-              Poco a poco fui aprendiendo de sistemas y de gestión de redes y por mi versatilidad he trabajado en varias startups.</p> <p>Si tuviera que elegir una rama del desarrollo software,
-              no podría, me interesa el stack completo y aunque sea en detrimento de especializarme completamente en un campo, a mi me merece la pena tener una visión total de todo.
+              In 2009 I begun developing software. I created a couple of automated bots to scrape the web.
+              From that moment I begun taking jobs as a freelance as developer, creating apps from the backend to the frontend and everything in between.
+              Little by little I learnt about networks, operative systems and how to code. Because of my wide knowledge I've been working in several startups.</p> <p>I couldn't choose a branch of software development,
+              I like the whole stack.
             </p>
           </div>
         </div>
