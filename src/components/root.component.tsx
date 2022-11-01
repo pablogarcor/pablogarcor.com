@@ -1,4 +1,5 @@
 import JSX, { BaseComponent, CustomElement } from "@nyaf/lib";
+import "../link.css"
 
 @CustomElement("app-root")
 export class RootComponent extends BaseComponent<{
@@ -46,12 +47,7 @@ export class RootComponent extends BaseComponent<{
                     name: "inherit",
                   })
               }
-              style="display:flex;
-                flex:1;
-                width:fit-content;
-                flex-direction:column;
-                font-size: clamp( 0px, 0.75vw, 10px);
-            "
+              class="email__container"
           >
             <div style="display: flex;">
               <div
@@ -62,12 +58,7 @@ export class RootComponent extends BaseComponent<{
                 "
               >
                 <div
-                    style="
-                        display: flex;
-                        justify-content: center;
-                        height: 3em;
-                        font-size: 2em;
-                    "
+                    class="email__link"
                 >
                   <a
                       href="#about"
@@ -99,7 +90,7 @@ export class RootComponent extends BaseComponent<{
                 >
                   <h1
                       style={"color:" + this.data.color.name + ";"}
-                      className="email__title"
+                      class="email__title"
                   >
                     pablo
                   </h1>
@@ -113,9 +104,9 @@ export class RootComponent extends BaseComponent<{
                 "
               >
                 <div
-                    // 7em is the height of text plus borders and 1px is for the size of the border
+                    // 19em is the height of text plus borders and 1px is for the size of the border
                     style="
-                        height: calc( 7em + 1px );
+                        height: calc( 19em + 1px );
                     "
                 />
                 <div
@@ -127,7 +118,7 @@ export class RootComponent extends BaseComponent<{
                 >
                   <h1
                       style={"color:" + this.data.color.atSign + ";"}
-                      className="email__title"
+                      class="email__title"
                   >
                     @
                   </h1>
@@ -148,12 +139,7 @@ export class RootComponent extends BaseComponent<{
                 "
               >
                 <div
-                    style="
-                        display: flex;
-                        justify-content: center;
-                        height: 3em;
-                        font-size: 2em;
-                    "
+                    class="email__link"
                 >
                   <a
                       href="https://pablogarcor.com"
@@ -195,7 +181,7 @@ export class RootComponent extends BaseComponent<{
                   >
                     <h1
                         style={"color:" + this.data.color.web + ";"}
-                        className="email__title"
+                        class="email__title"
                     >
                       pablogarcor
                     </h1>
@@ -207,12 +193,7 @@ export class RootComponent extends BaseComponent<{
                             "
                     />
                     <div
-                        style="
-                                font-size: 0.66666em;
-                                display: flex;
-                                justify-content: center;
-                                height: 3em;
-                            "
+                        class="email__link email__link-telegram"
                     >
                       <a
                           href="https://t.me/pablogarcor"
@@ -243,7 +224,7 @@ export class RootComponent extends BaseComponent<{
                   >
                     <h1
                         style={"color:" + this.data.color.domain + ";"}
-                        className="email__title"
+                        class="email__title"
                     >
                       .com
                     </h1>
@@ -260,12 +241,7 @@ export class RootComponent extends BaseComponent<{
             "
             />
             <div
-                style="
-                display: flex;
-                justify-content: center;
-                height: 3em;
-                font-size: 2em;
-            "
+                class="email__link"
             >
               <a
                   href="mailto: pablo@pablogarcor.com"
@@ -291,6 +267,7 @@ export class RootComponent extends BaseComponent<{
           padding:1em;
     border-radius: 1em;
     background: #E1F7F8;
+    margin-top:4em;
 
           ">
             <h2>
