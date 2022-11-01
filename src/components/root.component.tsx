@@ -70,7 +70,7 @@ export class RootComponent extends BaseComponent<{
                     margin-block-end: 1em;
                 "
                   >
-                    Yo
+                    Me
                   </a>
                 </div>
                 <div
@@ -263,7 +263,9 @@ export class RootComponent extends BaseComponent<{
               </a>
             </div>
           </div>
-          <div style="
+          <div
+              id="about"
+              style="
           padding:1em;
     border-radius: 1em;
     background: #E1F7F8;
